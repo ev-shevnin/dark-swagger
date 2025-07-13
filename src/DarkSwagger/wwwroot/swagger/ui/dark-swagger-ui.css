@@ -1,0 +1,212 @@
+/* Общие стили */
+body {
+    background-color: #1c2128;
+    color: #5e5d5d;
+}
+
+/* Стили текста */
+.swagger-ui,
+.swagger-ui .opblock-tag,
+.swagger-ui .opblock-summary-path,
+.swagger-ui .info .title,
+.swagger-ui .renderedMarkdown p,
+.swagger-ui .opblock-description-wrapper p,
+.swagger-ui .response-col_status,
+.swagger-ui .response-col_description,
+.swagger-ui .tab li button.tablinks,
+.swagger-ui .response-col_links,
+.swagger-ui .responses-inner h4,
+.swagger-ui .responses-inner h5,
+.swagger-ui table thead tr td,
+.swagger-ui table thead tr th,
+.swagger-ui .parameter__name,
+.swagger-ui .parameter__type,
+.swagger-ui a.nostyle,
+.swagger-ui .prop-format,
+.swagger-ui section.models h4 span,
+.swagger-ui .model-title,
+.swagger-ui .topbar .download-url-wrapper .select-label {
+    color: #b9b2b2;
+}
+
+.swagger-ui .btn {
+    color: #838080;
+}
+
+.swagger-ui .opblock .opblock-section-header {
+    background-color: #a19b9b;
+}
+
+.swagger-ui .opblock .opblock-summary-method {
+    color: #1e1c1c;
+}
+
+/* Стили для методов PUT, POST, DELETE, GET */
+.swagger-ui .opblock.opblock-put .opblock-summary-method {
+    background-color: #dc8950;
+    border-color: #dc8950;
+}
+.swagger-ui .opblock.opblock-put .tab-header .tab-item.active h4 span:after {
+    background: #dc8950;
+}
+.swagger-ui .opblock.opblock-put {
+    border-color: #dc8950;
+}
+.swagger-ui .opblock.opblock-post .opblock-summary-method {
+    background-color: #5f9156;
+    border-color: #5f9156;
+}
+.swagger-ui .opblock.opblock-post .tab-header .tab-item.active h4 span:after {
+    background: #5f9156;
+}
+.swagger-ui .opblock.opblock-post {
+    border-color: #5f9156;
+}
+.swagger-ui .opblock.opblock-delete .opblock-summary-method {
+    background-color: #de5252;
+    border-color: #de5252;
+}
+.swagger-ui .opblock.opblock-delete .tab-header .tab-item.active h4 span:after {
+    background: #de5252;
+}
+.swagger-ui .opblock.opblock-delete {
+    border-color: #de5252;
+}
+.swagger-ui .opblock.opblock-get .opblock-summary-method {
+    background-color: #5fa2af;
+    border-color: #5fa2af;
+}
+.swagger-ui .opblock.opblock-get .tab-header .tab-item.active h4 span:after {
+    background: #5fa2af;
+}
+.swagger-ui .opblock.opblock-get {
+    border-color: #5fa2af;
+}
+
+.swagger-ui section.models.is-open h4 {
+    border-bottom-color: #705f5f;
+}
+.swagger-ui section.models {
+    border-color: #705f5f;
+}
+.swagger-ui section.models .model-container {
+    background-color: #4b4444;
+}
+.swagger-ui section.models .model-container:hover {
+    background-color: #656060;
+}
+
+.swagger-ui .parameters-col_description input {
+    max-width: 340px;
+    width: 100%;
+}
+.swagger-ui input[disabled] {
+    background-color: rgba(80, 80, 79, 0.49);
+    cursor: not-allowed;
+}
+
+.swagger-ui table.model tbody tr td:first-of-type,
+.swagger-ui .model-box-control,
+.swagger-ui .model,
+.swagger-ui .prop-type,
+.swagger-ui .model .property.primitive,
+.swagger-ui .model .property {
+    color: #b9b2b2;
+}
+
+.swagger-ui select {
+    background-color: #c7c5c5;
+}
+
+.swagger-ui .btn.cancel {
+    border-color: #c05a5a;
+    color: #c05a5a;
+    font-family: sans-serif;
+}
+
+.swagger-ui .parameter__name.required:after,
+.swagger-ui .parameter__name.required span {
+    color: #c05a5a;
+}
+.swagger-ui .btn.execute {
+    background-color: #456fa1;
+    border-color: #456fa1;
+    color: #d0d0d0;
+}
+
+.swagger-ui .scheme-container {
+    background: #202229;
+}
+
+.swagger-ui .btn.authorize {
+    background-color: transparent;
+    border-color: #758e83;
+    color: #758e83;
+}
+
+.swagger-ui .btn.authorize svg {
+    fill: #758e83
+}
+
+.swagger-ui .dialog-ux .modal-ux {
+    background: #1f2022;
+    border: 1px solid #d9d2d2;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px 0 rgb(189 180 180 / 20%);
+}
+
+.swagger-ui .dialog-ux .modal-ux-header {
+    align-items: center;
+    border-bottom: 1px solid #d9d2d2;
+}
+
+.swagger-ui input[type=email],.swagger-ui input[type=file],.swagger-ui input[type=password],.swagger-ui input[type=search],.swagger-ui input[type=text],.swagger-ui textarea {
+    background: #31343a;
+    border: 1px solid #e5e3e3;
+}
+
+.swagger-ui .dialog-ux .modal-ux-content h4 {
+    color: #999da9;
+}
+
+.swagger-ui .dialog-ux .modal-ux-header h3 {
+    color: #999da9;
+}
+
+.swagger-ui label {
+    color: #999da9;
+}
+
+.swagger-ui .dialog-ux .modal-ux-content p {
+    color: #999da9;
+}
+
+.swagger-ui .btn.authorize {
+    background-color: transparent;
+    border-color: #66ad8e;
+    color: #66ad8e;
+}
+
+.swagger-ui .btn.authorize svg {
+    fill: #66ad8e
+}
+
+.swagger-ui .btn {
+    color: #8f5555;
+}
+
+.swagger-ui .btn {
+    background: transparent;
+    border: 2px solid #8f5555;
+}
+
+.swagger-ui textarea {
+    border: none;
+    border-radius: 4px;
+    color: #dee0e4;
+}
+
+.swagger-ui input[type=email],.swagger-ui input[type=file],.swagger-ui input[type=password],.swagger-ui input[type=search],.swagger-ui input[type=text],.swagger-ui textarea {
+    background: #31343a;
+    border: 1px solid #7c7c81;
+}
