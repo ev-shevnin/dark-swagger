@@ -4,7 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <PackageId>EvShevnin.DarkSwagger</PackageId>
+        <PackageId>EvShevnin.Swagger.DarkScheme</PackageId>
         <Authors>EvShevnin</Authors>
         <Description>Dark theme for Swagger UI</Description>
         <PackageProjectUrl>https://github.com/ev-shevnin/dark-swagger</PackageProjectUrl>
