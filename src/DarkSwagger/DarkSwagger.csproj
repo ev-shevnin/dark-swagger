@@ -23,6 +23,7 @@
 
     <ItemGroup>
         <EmbeddedResource Include="wwwroot\swagger\ui\dark-swagger-ui.css" />
+        <None Include="../../README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
     
 </Project>
