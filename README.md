@@ -1,4 +1,4 @@
-# EvShevnin.DarkSwagger
+# EvShevnin.DarkScheme.Swagger
 
 *Dark theme for Swagger UI*
 
@@ -15,7 +15,7 @@ Let your eyes rest with a dark theme for Swagger UI
 Install via NuGet:
 
 ```bash
-dotnet add package EvShevnin.DarkSwagger
+dotnet add package EvShevnin.DarkScheme.Swagger
 ```
 
 ## Usage
