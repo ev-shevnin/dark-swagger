@@ -1,4 +1,4 @@
-# EvShevnin.DarkScheme.Swagger
+# EvShevnin.DarkTheme.Swagger
 
 *Dark theme for Swagger UI*
 
@@ -10,12 +10,20 @@ Let your eyes rest with a dark theme for Swagger UI
 - Custom dark theme CSS for comfortable viewing
 - Compatible with ASP.NET Core projects using Swashbuckle
 
+## Swagger dark theme
+
+![Swagger Dark Theme](https://raw.githubusercontent.com/ev-shevnin/dark-swagger/main/docs/images/swagger-dark-theme.png)
+
+## Swagger default theme
+
+![Swagger Default Theme](https://raw.githubusercontent.com/ev-shevnin/dark-swagger/main/docs/images/swagger-default.png)
+
 ## Installation
 
 Install via NuGet:
 
 ```bash
-dotnet add package EvShevnin.DarkScheme.Swagger
+dotnet add package EvShevnin.DarkTheme.Swagger
 ```
 
 ## Usage
